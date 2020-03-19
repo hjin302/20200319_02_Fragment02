@@ -16,7 +16,7 @@ public class Room implements Serializable {
         this.price = price;
     }
 
-    public Room(int price) {
+    public Room(int price, String address) {
         this.price = price;
     }
 }
